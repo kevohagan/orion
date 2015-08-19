@@ -13,7 +13,7 @@ Template.orionBootstrapLayout.events({
 
 Template.orionBootstrapHeader.events({
   'click .logout': function() {
-    Meteor.logout();
+    AccountsTemplates.logout();
   }
 });
 
